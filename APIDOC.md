@@ -1,4 +1,4 @@
-# *Casper Sneaker Retail E-Commerce Store* API Documentation
+# *CSR E-Commerce Store* API Documentation
 Provides data about each sneaker in the store, including names, price, sizes, and description. Each
 endpoint returns data in either plain text or JSON object. If your submit an invalid query, an http
 error code of 400 with an error message.

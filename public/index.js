@@ -2,7 +2,7 @@
  * Casper Hsiao
  * 08.02.2019
  * CSE 154 AC
- * This is the index.js for my CSR E-commerce website for the final project. It provides functions
+ * This is the index.js for my CSR E-commerce website. It provides functions
  * to view all the sneakers in the store, including name, price and image. Furthermore, provides
  * the detail name, size, price and descriptionof the sneakers in shop view and allows client to
  * add a sneaker to the cart. It also provides filter to view each sneaker category of the store.
@@ -267,7 +267,7 @@
     remove.classList.add("remove");
     remove.textContent = "Remove";
     remove.addEventListener("click", function() {
-      removeFromCart(product, priceIn);
+      removeFromCart(product, priceIn, quantityIn);
     });
     info.appendChild(title);
     info.appendChild(price);
@@ -277,16 +277,16 @@
     product.appendChild(img);
     product.appendChild(info);
     id("cart-list").appendChild(product);
-    updateCart(priceIn);
+    updateCart(priceIn, quantityIn);
   }
 
-  function removeFromCart(product, price) {
+  function removeFromCart(product, price, quantity) {
     product.parentNode.removeChild(product);
-    updateCart("-" + price);
+    updateCart("-" + price, quantity);
   }
 
-  function updateCart(price) {
-    id("subtotal").textContent = parseInt(id("subtotal").textContent) + parseInt(price);
+  function updateCart(price, quantity) {
+    id("subtotal").textContent = parseInt(id("subtotal").textContent) + parseInt(price) * parseInt(quantity);
     id("tax").textContent = parseInt(id("subtotal").textContent) * 0.1;
     id("total").textContent = parseInt(id("tax").textContent) +
       parseInt(id("subtotal").textContent);
