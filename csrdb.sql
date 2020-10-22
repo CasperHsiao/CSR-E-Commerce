@@ -123,7 +123,7 @@ CREATE TABLE faq (
 INSERT INTO `faq` (`id`, `question`, `answer`) VALUES
 (1, 'What is CSR?', 'CSR is a sneaker retail corporation founded in 2019, based in Seattle,
   Washington.'),
-(2, 'What does CSR stand for?', 'CSR stands for Casper\'s Sneaker Retail. '),
+(2, 'What does CSR stand for?', 'CSR stands for Chum\'s Sneaker Retail. '),
 (3, 'How are the sneaker prices determined?', 'The sneaker prices are set by the individual sellers
   and CSR. The sneaker price display includes the cost of the sneaker, service fee, and shipment
   fee.'),

@@ -116,7 +116,7 @@ Responds with a 400 status code and a plain text message if the query invalid. R
 [
   {"question":"What is CSR?","answer":"CSR is a sneaker retail corporation founded in 2019,
     based in Seattle, Washington."},
-  {"question":"What does CSR stand for?","answer":"CSR stands for Casper's Sneaker Retail. "},
+  {"question":"What does CSR stand for?","answer":"CSR stands for Chum's Sneaker Retail. "},
   {"question":"How are the sneaker prices determined?","answer":"The sneaker prices are set by
     the individual sellers and CSR. The sneaker price display includes the cost of the sneaker,
     service fee, and shipment fee."},
