@@ -2,8 +2,8 @@
  * Casper Hsiao
  * 08.12.2019
  * CSE 154 AC
- * This the app.js for my homework 4. This an API web service that outputs all the sneakers in
- * Casper Sneaker Retails. It provides the deatils of the sneaker including name, price, category,
+ * This the app.js for my CSR E-Commerce Web app. This an API web service that outputs all the sneakers in
+ * CSR sneaker retail. It provides the deatils of the sneaker including name, price, category,
  * and description. Furthermore, it ouputs the frequenctly answered questions and also stores the
  * feedback provided by the clients.
  */
